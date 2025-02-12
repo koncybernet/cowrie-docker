@@ -1,6 +1,6 @@
-# Dockerized Cowrie Honeypot
+# Cowrie Docker Honeypot
 
-this repository is about dockerizing the SSH honeypot Cowrie. The honeypot simulates a vulnerable SSH & Telnet server. The container was built for the hardware platforms x86 as well as ARM and ARM64 and is therefore also usable on hardware platforms like Raspberry Pi, Odroid, FriendlyArm, Banana Pi, Apple M1 or BeagleBone.
+This repository creates a SSH Honeypot based on Cowrie. The honeypot simulates a vulnerable SSH & Telnet server. The container was built for the hardware platforms x86 as well as ARM and ARM64 and is therefore also usable on hardware platforms like Raspberry Pi, Odroid, FriendlyArm, Banana Pi, Apple M1 or BeagleBone.
 
 # Honeypot Cowrie
 
