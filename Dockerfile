@@ -1,4 +1,4 @@
-FROM alpine:3.15 as builder
+FROM alpine:3.21 as builder
 
 ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1 \
     LC_ALL=en_US.UTF-8 \
@@ -34,7 +34,7 @@ RUN apk -U --no-cache add \
     mkdir -p /home/cowrie/cowrie-git/var/lib/cowrie/keys
 
 
-FROM alpine:3.15
+FROM alpine:3.21
 
 ARG VERSION TITLE DESCRIPTION LICENSES URL CREATED REVISION
 
